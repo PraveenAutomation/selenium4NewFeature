@@ -1,4 +1,4 @@
-package com.qa.seleniumNewFeature;
+package com.qa.seleniumManagerNewFeature;
 
 import java.time.Duration;
 
