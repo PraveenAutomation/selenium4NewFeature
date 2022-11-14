@@ -30,6 +30,19 @@ public class AmazonProductAutomate {
 		
 		System.out.println(System.getProperty("user.dir"));
 		
+		for(int i=0;i<list.size();i++)
+		{
+			String listItem=list.get(i).getText();
+			Thread.sleep(2000);
+			System.out.println(listItem);
+			Thread.sleep(2000);
+			
+			/*
+			 * if(listItem.contains("java download")) { list.get(i).click(); break; }
+			 */
+			
+		}
+		
 		driver.quit();;
 		
 
